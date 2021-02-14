@@ -1,0 +1,256 @@
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topheader-content {
+  height: 20vh;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+header {
+    height: 70vh;
+    background-image:url(header.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    
+}
+
+
+
+h1 {
+    color: #007bff;
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+}
+
+hr {
+    color: #007bff;
+    width: 50px;
+    
+}
+
+span {
+    padding:5px;
+    margin:5px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid  #007bff;
+    padding: 10px;
+    margin-top:10px;
+    cursor: pointer;
+    transition: all 0.4s;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #007bff;
+    color:white;
+}
+
+.kropka {
+    width: 5px;
+    height: 5px;
+    background-color: #007bff;
+    border-radius:100%;
+}
+
+.htmlcssjs {
+    display: flex;
+    justify-content: center;
+}
+
+.kropkacontainer {
+    display: flex;
+    align-items: center;
+    margin: 2px;
+}
+
+label, input {
+    text-align: right;
+}
+
+
+nav, .dropdown > li {
+    background-color:  #007bff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav > ul > li {
+    padding: 15px;
+}
+
+nav > ul {
+    list-style-type: none;
+}
+section {
+    text-align: center;
+    margin-top: 100px;
+}
+h2 {
+    text-transform: uppercase;
+    padding-top: 40px;
+
+}
+
+section > img {
+    border-radius: 100%;
+    margin: 40px;
+}
+
+#lorem {
+  width: 40%;
+}
+
+.lorem2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section2 {
+    background-color: #f2f1ed;
+    text-align:center;
+    padding: 20px; 
+}
+
+
+.gallery {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    object-fit: cover;
+    margin-top:50px;
+}
+
+.galleryimage {
+    width: 300px;
+    height: 200px;
+    object-fit:cover;
+    position: relative;
+   
+   
+}
+
+.galleryimage img {
+    width: 300px;
+    height: 200px;
+    object-fit:cover;
+}
+
+h3 {
+ width: 100%;
+ top: 0;
+ left: 0;
+ position: absolute;
+ line-height: 200px;
+ margin: 0;
+ opacity: 0;
+ background-color: rgba(26, 7, 197, 0.6);
+ color:white;
+ cursor:pointer;
+
+}
+h3:hover {
+  opacity: 1;
+}
+
+.projekt {
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.inputyflex {
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    margin:20px;
+    font-size:20px;
+}
+
+textarea {
+    width: 640px;
+    height: 60px;
+}
+
+footer {
+    text-align:center;
+    padding:20px;
+    color: #777;
+   background-color: #f2f1ed;
+ 
+   
+
+}
+
+.ikonkiflex {
+    display: flex;
+    justify-content: center;
+}
+
+i {
+    margin-right: 35px;
+    color:#007bff;
+    font-size: 40px;
+}
+
+ nav label, nav input {
+    display: none;
+} 
+
+input[type=checkbox]{
+    display: none;
+}
+
+
+ 
+
+input[type=checkbox]:checked ~ ul {
+    display: block;
+}
+
+
